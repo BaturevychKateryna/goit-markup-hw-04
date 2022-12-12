@@ -241,7 +241,7 @@ body{
     border-radius: 50%;
 
 }
-.socials-link:hover {
+.socials-link:hover, .socials-link:focus {
     background-color: var(--accent-color-blue);
     fill: var(--accent-color-white);
 }
@@ -306,9 +306,10 @@ body{
     border: 1px solid var(--social-link-color);
     border-radius: 4px;
 }
-.client-icon:hover {
+.client-icon:hover, .client-icon:focus {
     background-color: var(--accent-color-white);
     fill: var(--accent-color-blue);
+    border: 1px solid var(--accent-color-blue);
 }
 /* Футер */
 .footer {
@@ -381,7 +382,7 @@ body{
 
 }
 
-.socials-link-footer:hover {
+.socials-link-footer:hover, .socials-link-footer:focus {
     background-color: var(--accent-color-blue);
 }
 
@@ -412,6 +413,7 @@ body{
 }
 .border {
     border: 1px solid var(--border-for-card-color);
+    border-top: none;
 }
 .page {
     display: flex;
@@ -456,7 +458,7 @@ body{
 .flex-element :nth-child(3n) {
     margin-right: 0;
 }
-.shadow-services:hover {
+.shadow-services:hover, .shadow-services:focus {
     display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
