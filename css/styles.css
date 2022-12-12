@@ -367,21 +367,24 @@ body{
 .list-item {
     width: 44px;
     height: 44px;
-    border-radius: 4px;
+
 }
-.socials-link {
+.socials-link-footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
     width: 100%;
     height: 100%;
     fill: var(--accent-color-white); 
     background-color: var(--footer-background-icon); 
+
 }
 
-.socials-link:hover {
+.socials-link-footer:hover {
     background-color: var(--accent-color-blue);
 }
+
 .footer-box {
     display: flex;
     align-items: baseline;
